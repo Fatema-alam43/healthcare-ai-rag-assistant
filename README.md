@@ -77,7 +77,7 @@ Example query — aggregating evaluation results:
 SELECT passed, COUNT(*) FROM evaluations GROUP BY passed
 ```
 
-![SQL Query Output](screenshots/SQL query output.png)
+![SQL Query Output](screenshots/SQL_query_output.png)
 
 ## Evaluation & Testing
 
@@ -85,15 +85,15 @@ SELECT passed, COUNT(*) FROM evaluations GROUP BY passed
 
 **Results: 18 PASS, 4 PARTIAL, 0 FAIL, 0 hallucinations**
 
-![Evaluation Results](screenshots/evaluation pass:fail table .png)
+![Evaluation Results](screenshots/evaluation_pass:fail_table.png)
 
 Notable finding: the system correctly refused to answer questions about drugs outside its document set (e.g., aspirin, Tylenol) rather than generating a plausible but false answer — the most important behavior for a healthcare-context tool.
 
 ## Demo
 
-![Chat Interface](screenshots/MedicAI Interface 1.png)
-![Chat Interface](screenshots/MedicAI Interface  2.png)
-![Chat Interface](screenshots/MedicAI Interface  3.png)
+![Chat Interface](screenshots/MedicAI_Interface_1.png)
+![Chat Interface](screenshots/MedicAI_Interface_2.png)
+![Chat Interface](screenshots/MedicAI_Interface_3.png)
 
 [Watch the demo video](your-linkedin-or-youtube-link-here)
 
