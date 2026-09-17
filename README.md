@@ -92,10 +92,9 @@ Notable finding: the system correctly refused to answer questions about drugs ou
 ## Demo
 
 ![Chat Interface](screenshots/MedicAI_Interface_1.png)
-![Chat Interface](screenshots/MedicAI_Interface_2.png)
-![Chat Interface](screenshots/MedicAI_Interface_3.png)
 
-[Watch the demo video]([your-linkedin-or-youtube-link-here](https://www.linkedin.com/posts/fatema-alam-074496249_ai-machinelearning-rag-activity-7506455012366180353-ltDS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD15QdgBxfVk9JBvFSBHeNauhxxXK_SoxO8))
+
+[Watch the demo video](https://www.linkedin.com/posts/fatema-alam-074496249_ai-machinelearning-rag-activity-7506455012366180353-ltDS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD15QdgBxfVk9JBvFSBHeNauhxxXK_SoxO8)
 
 ## Limitations
 - Gabapentin's main indication section was not reliably retrieved at k=3, reproduced across two separate test questions — a real, identified retrieval gap rather than a one-off fluke
