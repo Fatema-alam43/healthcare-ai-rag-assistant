@@ -24,6 +24,9 @@ flowchart TD
 ```
 **Documents covered:** albuterol, amoxicillin, atorvastatin, citalopram, gabapentin, hydrochlorothiazide, ibuprofen, levothyroxine, lisinopril, losartan, metformin, metoprolol, omeprazole, sertraline, simvastatin
 
+## Dataset
+15 FDA drug label PDFs sourced from [DailyMed](https://dailymed.nlm.nih.gov/dailymed/) (U.S. National Library of Medicine), covering: albuterol, amoxicillin, atorvastatin, citalopram, gabapentin, hydrochlorothiazide, ibuprofen, levothyroxine, lisinopril, losartan, metformin, metoprolol, omeprazole, sertraline, simvastatin. Raw PDFs are included in the `data/` folder for reproducibility.
+
 ## Tech Stack
 Python, LangChain, RAG, Google Gemini API, HuggingFace sentence-transformers, Chroma (vector DB), SQLite (SQL), Gradio, Google Colab
 
