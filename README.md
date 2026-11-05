@@ -171,6 +171,10 @@ Guardrails: answers must come from tool results with source filenames cited, dru
 
 ![Agent tool definitions](screenshots/agent_tools_code.png)
 
+The agent can also be used from the chat interface. With `USE_AGENT = True` in the notebook, each answer ends with the tools the agent used.
+
+![Agent in the chat interface](screenshots/agent_chat_ui.png)
+
 ### Agent evaluation
 
 5 questions, logged in the SQLite `agent_tests` table, with the expected tools defined before running.
