@@ -190,7 +190,7 @@ Guardrails: answers must come from tool results with source filenames cited, dru
 
 ![Agent results summary](screenshots/agent_results_summary.png)
 
-![Agent multi-tool answer](screenshots/agent_answer_amoxicillin.png)
+![Agent multi-tool answer](screenshots/Review_agent_answer.png) 
 
 **Model note:** the RAG answers use Gemini 3.6 Flash. The agent evaluation was run on Groq `openai/gpt-oss-120b` with low reasoning effort, because the Gemini free-tier quota was exhausted and Groq's free tier limits tokens per minute. The two sets of results therefore come from different models and are not directly comparable.
 
